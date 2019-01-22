@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head th:include="/fragments/styling :: head-style">
+<head th:include="../fragments/styling :: head-style">
 	<title>Blog Site</title>
 </head>
 <body>
-<div th:replace="fragments/navbar :: navbar" ></div>
+<div th:replace="../fragments/navbar :: navbar" ></div>
 
 	<div class="container">
 		<h1>Welcome to Our Blog Post Site!</h1>
@@ -39,6 +39,6 @@
 			
 	</div>
 	
-	<div th:replace="/fragments/styling :: body-links" ></div>
+	<div th:replace="../fragments/styling :: body-links" ></div>
 </body>
 </html>
